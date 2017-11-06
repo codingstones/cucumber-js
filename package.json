@@ -1,0 +1,24 @@
+{
+  "name": "cucumber-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingstones/cucumber-e2e.git"
+  },
+  "author": "Dani Latorre <dani@codingstones.com> (http://codingstones.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codingstones/cucumber-e2e/issues"
+  },
+  "homepage": "https://github.com/codingstones/cucumber-e2e#readme",
+  "devDependencies": {
+    "cucumber": "^3.1.0",
+    "nightwatch": "^0.9.16",
+    "nightwatch-cucumber": "^8.2.8"
+  }
+}

@@ -1,4 +1,7 @@
-require('nightwatch-cucumber')({});
+require('nightwatch-cucumber')({
+  cucumberArgs: ['--format', 'node_modules/cucumber-pretty', 'features'],
+  nightwatchOutput: false
+});
 module.exports = {
   "output_folder" : "reports",
 
